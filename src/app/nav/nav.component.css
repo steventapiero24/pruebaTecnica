@@ -1,0 +1,22 @@
+
+.icon {  
+    transform: translateY(1px);
+}
+
+.click::before {
+    content: url(../../../public/imagenes/Click.svg);
+    width: 40px;
+    height: 40px;
+}
+.money::before {
+    content: url(../../../public/imagenes/money.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.container__nav {
+    justify-content: space-between;
+    padding: 16px 104px;
+    background-color: var(--color-primary-400);
+
+}

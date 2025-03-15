@@ -1,0 +1,56 @@
+.header__container {
+    justify-content: flex-start;
+    padding: 0 104px;
+    border-radius: 16px;
+    height: 70vh;
+    background-image: url(../../../public/imagenes/trabajadores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.header__container::before {
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    background: linear-gradient(90deg, rgba(16,48,86,1) 0%, rgba(16,48,86,0.19091386554621848) 100%);
+    width: 100%;
+    height: 70vh;
+    border-radius: 16px;
+}
+
+.header__content {
+    z-index: 200;
+    color: var(--gray-100);
+    max-width: 600px;
+}
+
+.header__content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.header__content h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.header__content p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.arrow__rithtop::before {
+    content: url(../../../public/imagenes/arrowrigth_top.svg);
+}
+
+.arrow__rithtop {
+    transition: .1s ease;
+}
+
+.button-white:hover .arrow__rithtop {
+    transform: translateY(-2px);
+}
+
+.button-white {
+    height: 54px;
+}
