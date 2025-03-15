@@ -4,7 +4,7 @@ import { NavComponent } from './nav/nav.component';
 import { BreadcrumbComponent } from "./breadcrumb/breadcrumb.component";
 import { HeaderComponent } from "./header/header.component";
 import { ServiciosComponent } from './servicios/servicios.component';
-import { AwardsComponent } from "./Itemawards/itemawards.component";
+import { AwardsComponent } from "./awards/awards.component";
 
 @Component({
   selector: 'app-root',

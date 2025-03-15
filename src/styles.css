@@ -107,7 +107,7 @@
     background-color: var(--color-primary-400);
 }
 .button-white:hover .arrow__rithtop{
-    transform: translate(3px, -px) !important;
+    transform: translate(3px, -2px) !important;
 }
 .button-white span {
     margin-right: -10px
@@ -164,6 +164,9 @@
     transition: .1s ease;
 }
 
+.mat-toolbar {
+    background-color: transparent !important;
+}
 /* Icons */
 
 .mat-icon {
