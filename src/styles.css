@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --color-primary100:#c2f7eb;
+    --color-primary400:#47E6C4;
+    --color-primary900:#17a889;
+    --color-segundary:#9dc1ed;
+    --color-segundary:#103056;
+    --color-segundary:#103056;
+
+
+    /* Gray */
+    --gray100:#ffffff;
+    --gray300:#d2d2d2;
+    --gray400:#a4a4a4;
+    --gray600:#8e8e8e;
+    --gray800:#606060;
+    --gray900:#333333;
+
+    /* Warning */
+    --error50: #d00416;
+    
+
+
+   font-family: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.width-100 {
+    width: 100%;
+}
+
