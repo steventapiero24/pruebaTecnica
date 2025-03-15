@@ -4,11 +4,12 @@ import { NavComponent } from './nav/nav.component';
 import { BreadcrumbComponent } from "./breadcrumb/breadcrumb.component";
 import { HeaderComponent } from "./header/header.component";
 import { ServiciosComponent } from './servicios/servicios.component';
+import { AwardsComponent } from "./Itemawards/itemawards.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavComponent, BreadcrumbComponent, HeaderComponent, ServiciosComponent],
+  imports: [RouterOutlet, NavComponent, BreadcrumbComponent, HeaderComponent, ServiciosComponent, AwardsComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
