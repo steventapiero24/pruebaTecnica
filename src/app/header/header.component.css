@@ -38,19 +38,9 @@
     font-size: 20px;
     font-weight: 400;
 }
-
-.arrow__rithtop::before {
-    content: url(../../../public/imagenes/arrowrigth_top.svg);
-}
-
 .arrow__rithtop {
     transition: .1s ease;
 }
-
-.button-white:hover .arrow__rithtop {
-    transform: translateY(-2px);
-}
-
-.button-white {
+.button-green {
     height: 54px;
 }

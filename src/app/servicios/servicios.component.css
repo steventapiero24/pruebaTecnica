@@ -1,0 +1,8 @@
+.container__services {
+    height: 70vh;
+    padding: 0 104px;
+}
+.container__services h3 {
+    font-size: 40px;
+    font-weight: 700;
+}

@@ -1,0 +1,29 @@
+<div class="card-container flex gap-16">
+  <mat-card
+    class="card"
+    [ngStyle]="{ 'background-image': 'url(' + card.imageUrl + ')' }"
+    appearance="outlined"
+    *ngFor="let card of cards"
+  >
+    <div class="card__info gap-16 flex flex-colum">
+      <mat-card-header>
+        <mat-card-title>{{ card.title }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ card.description }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <a class="button-outline flex flex-center justify-center gap-16" mat-button [href]="card.url">
+            <span>
+                Click Here
+            </span>
+            <i class="card-button-i">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.9336 9.58753L6.67613 18.845L5.15503 17.3239L14.4125 8.06642L6.25326 8.06642L6.25326 5.91558H18.0844V17.7467L15.9336 17.7467L15.9336 9.58753Z"/>
+                </svg>
+            </i>
+        </a>
+      </mat-card-actions>
+    </div>
+  </mat-card>
+</div>
