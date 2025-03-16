@@ -193,3 +193,7 @@
 .arrow__rithtop::before {
   content: url(../public/imagenes/arrowrigth_top.svg);
 }
+
+.mdc-list {
+  padding: 0 !important;
+}

@@ -1,3 +1,29 @@
 .aboutUs__container {
     height: 70vh;
+    padding: 70px 140px;
+    width: 100%;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+.container-image {
+    width: 30%;
+}
+.container-image h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-segundary-900);
+}
+
+.image-work {
+    width: 400px;
+    height: 228px;
+    background-image: url(../../../public/imagenes/trabadorafabrica.jpg);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.about-us-item {
+    padding: 0 !important;
 }

@@ -1,0 +1,14 @@
+<mat-list>
+  <div *ngFor="let item of aboutItem">
+    <mat-list-item>
+      <div class="container__item-list flex gap-24 flex-center">
+        <img [src]="item.imageUrl" alt="{{ item.title }}" />
+        <div>
+          <h4 mat-line>{{ item.title }}</h4>
+          <p mat-line>{{ item.descrption }}</p>
+        </div>
+      </div>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </div>
+</mat-list>
