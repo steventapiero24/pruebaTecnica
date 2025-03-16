@@ -1,5 +1,5 @@
 .aboutUs__container {
-    height: 70vh;
+    height: 50vh;
     padding: 70px 140px;
     width: 100%;
     gap: 120px;
@@ -13,7 +13,6 @@
     font-weight: 700;
     color: var(--color-segundary-900);
 }
-
 .image-work {
     width: 400px;
     height: 228px;
@@ -23,7 +22,6 @@
     background-size: cover;
     border-radius: 16px;
 }
-
 .about-us-item {
     padding: 0 !important;
 }
