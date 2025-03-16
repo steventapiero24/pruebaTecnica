@@ -6,6 +6,7 @@ import { HeaderComponent } from "./header/header.component";
 import { ServiciosComponent } from './servicios/servicios.component';
 import { AwardsComponent } from "./awards/awards.component";
 
+
 @Component({
   selector: 'app-root',
   standalone: true,

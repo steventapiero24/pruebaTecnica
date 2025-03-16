@@ -1,0 +1,10 @@
+.awards-container {
+    margin: 0 104px 40px 104px;
+    height: 70vh;
+    background-color: var(--color-primary-400);
+    border-radius: 16px;
+}
+.awards-container h3{
+    font-size: 40px;
+    font-weight: 700;
+}

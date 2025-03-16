@@ -1,0 +1,29 @@
+.awards__container {
+    display: flex;
+    background-color: var(--color-primary-400);
+    padding: 48px 40px;
+    gap: 40px;
+}
+.awards-info .mat-mdc-card-header {
+    font-size: 24px;
+    font-weight: 400;
+}
+.awards-info .mat-mdc-card-content {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.awards__container-item {
+    background-color: transparent;
+    padding: 16px;
+    border: 1px solid var(--color-segundary-400);
+    transition: .1s ease;
+}
+.awards__container-item:hover {
+    background-color: transparent;
+    background-color: var(--gray-100);
+}
+.awards__container-item img {
+    height: 72px;
+    width: 72px;
+}

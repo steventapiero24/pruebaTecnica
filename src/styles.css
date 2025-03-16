@@ -69,28 +69,41 @@
 /* Buttons */
 
 .button {
-    border-radius: 8px;
-    color: var(--gray-100);
-    background-color: var(--color-segundary-400);
-    padding: 8px 16px;
-    gap: 16px;
-    font-family: var(--font-family);
-    font-size: 16px;
-    font-weight: 500;
-    min-width: 162px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    transition: .1s ease;
+    border-radius: 8px !important;
+    color: var(--gray-100) !important;
+    background-color: var(--color-segundary-400) !important;
+    padding: 8px 16px !important;
+    gap: 16px !important;
+    font-family: var(--font-family) !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    min-width: 162px !important;
+    height: 40px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: .1s ease !important
 }
 .button:hover {
-    background-color: var(--color-segundary-900);
+    background-color: var(--color-segundary-900) !important;
 }
 
-.button-white {
+.button svg {
+    fill: var(--gray-100) !important;
+    transform: translate(-2px, 5px) !important;
+    transition: .1s ease;
+}
+.button:hover svg {
+    transform: translate(2px, 3px) !important;
+}
+
+.awards-info .button {
+    height: 54px !important;
+}
+
+.button-green {
     border-radius: 8px;
     color: var(--color-segundary-400);
-    background-color: var(--gray-100);
+    background-color: var(--color-primary-400);
     padding: 8px 16px;
     gap: 16px;
     font-family: var(--font-family);
@@ -103,16 +116,16 @@
     transition: .1s ease;
     font-family: var(--font-family);
 }
-.button-white:hover {
-    background-color: var(--color-primary-400);
+.button-green:hover {
+    background-color: var(--gray-100);
 }
-.button-white:hover .arrow__rithtop{
+.button-green:hover .arrow__rithtop{
     transform: translate(3px, -2px) !important;
 }
-.button-white span {
+.button-green span {
     margin-right: -10px
 }
-.button-white span::first-letter {
+.button-green span::first-letter {
     font-size: 130% !important;
 }
 
