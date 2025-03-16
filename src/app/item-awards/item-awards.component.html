@@ -5,7 +5,7 @@
     *ngFor="let card of awards"
   >
     <div class="awards-info gap-16 flex flex-colum">
-        <img src="{{ card.imageUrl}}" alt="{{card.title}}">
+      <img src="{{ card.imageUrl }}" alt="{{ card.title }}" />
       <mat-card-header>
         <mat-card-title>{{ card.title }}</mat-card-title>
       </mat-card-header>
@@ -13,15 +13,25 @@
         <p>{{ card.description }}</p>
       </mat-card-content>
       <mat-card-actions>
-        <a class="button flex flex-center justify-center gap-16" mat-button [href]="card.url">
+        <a
+          class="button flex flex-center justify-center gap-16"
+          mat-button
+          [href]="card.url"
+        >
           <i class="card-button-i">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M15.9336 9.58753L6.67613 18.845L5.15503 17.3239L14.4125 8.06642L6.25326 8.06642L6.25326 5.91558H18.0844V17.7467L15.9336 17.7467L15.9336 9.58753Z"/>
-              </svg>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.9336 9.58753L6.67613 18.845L5.15503 17.3239L14.4125 8.06642L6.25326 8.06642L6.25326 5.91558H18.0844V17.7467L15.9336 17.7467L15.9336 9.58753Z"
+              />
+            </svg>
           </i>
-            <span>
-                Click Here
-            </span>
+          <span> Click Here </span>
         </a>
       </mat-card-actions>
     </div>

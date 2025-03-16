@@ -1,195 +1,195 @@
-
 :root {
-    --color-primary-100:#c2f7eb;
-    --color-primary-400:#47E6C4;
-    --color-primary-900:#17a889;
-    --color-segundary-100:#9dc1ed;
-    --color-segundary-400:#103056;
-    --color-segundary-900:#0a1e36;
+  --color-primary-100: #c2f7eb;
+  --color-primary-400: #47e6c4;
+  --color-primary-900: #17a889;
+  --color-segundary-100: #9dc1ed;
+  --color-segundary-400: #103056;
+  --color-segundary-900: #0a1e36;
 
+  /* Gray */
+  --gray-100: #ffffff;
+  --gray-300: #d2d2d2;
+  --gray-400: #a4a4a4;
+  --gray-600: #8e8e8e;
+  --gray-800: #606060;
+  --gray-900: #333333;
 
-    /* Gray */
-    --gray-100:#ffffff;
-    --gray-300:#d2d2d2;
-    --gray-400:#a4a4a4;
-    --gray-600:#8e8e8e;
-    --gray-800:#606060;
-    --gray-900:#333333;
+  /* Warning */
+  --error50: #d00416;
 
-    /* Warning */
-    --error50: #d00416;
-    
-
-
-   --font-family: "Montserrat", sans-serif;
+  --font-family: "Montserrat", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
 }
 
-
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-center {
-    align-items: center;
+  align-items: center;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .flex-colum {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .width-100 {
-    width: 100%;
+  width: 100%;
 }
 
 /* Gap */
 
 .gap-4 {
-    gap: 4px;
+  gap: 4px;
 }
 .gap-8 {
-    gap: 8px;
+  gap: 8px;
 }
 .gap-16 {
-    gap: 16px;
+  gap: 16px;
 }
 .gap-24 {
-    gap: 24px;
+  gap: 24px;
 }
 
 /* Buttons */
 
 .button {
-    border-radius: 8px !important;
-    color: var(--gray-100) !important;
-    background-color: var(--color-segundary-400) !important;
-    padding: 8px 16px !important;
-    gap: 16px !important;
-    font-family: var(--font-family) !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    min-width: 162px !important;
-    height: 40px !important;
-    border: none !important;
-    cursor: pointer !important;
-    transition: .1s ease !important
+  border-radius: 8px !important;
+  color: var(--gray-100) !important;
+  background-color: var(--color-segundary-400) !important;
+  padding: 8px 16px !important;
+  gap: 16px !important;
+  font-family: var(--font-family) !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  min-width: 162px !important;
+  height: 40px !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: 0.1s ease !important;
 }
 .button:hover {
-    background-color: var(--color-segundary-900) !important;
+  background-color: var(--color-segundary-900) !important;
 }
 
 .button svg {
-    fill: var(--gray-100) !important;
-    transform: translate(-2px, 5px) !important;
-    transition: .1s ease;
+  fill: var(--gray-100) !important;
+  transform: translate(-2px, 5px) !important;
+  transition: 0.1s ease;
 }
 .button:hover svg {
-    transform: translate(2px, 3px) !important;
+  transform: translate(2px, 3px) !important;
 }
 
 .awards-info .button {
-    height: 54px !important;
+  height: 54px !important;
 }
 
 .button-green {
-    border-radius: 8px;
-    color: var(--color-segundary-400);
-    background-color: var(--color-primary-400);
-    padding: 8px 16px;
-    gap: 16px;
-    font-family: var(--font-family);
-    font-size: 14px;
-    font-weight: 500;
-    min-width: 162px;
-    min-height: 40px;
-    border: 1px solid var(--color-segundary-400);
-    cursor: pointer;
-    transition: .1s ease;
-    font-family: var(--font-family);
+  border-radius: 8px;
+  color: var(--color-segundary-400);
+  background-color: var(--color-primary-400);
+  padding: 8px 16px;
+  gap: 16px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 162px;
+  min-height: 40px;
+  border: 1px solid var(--color-segundary-400);
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-family: var(--font-family);
 }
 .button-green:hover {
-    background-color: var(--gray-100);
+  background-color: var(--gray-100);
 }
-.button-green:hover .arrow__rithtop{
-    transform: translate(3px, -2px) !important;
+.button-green:hover .arrow__rithtop {
+  transform: translate(3px, -2px) !important;
 }
 .button-green span {
-    margin-right: -10px
+  margin-right: -10px;
 }
 .button-green span::first-letter {
-    font-size: 130% !important;
+  font-size: 130% !important;
+}
+
+.container__banner-content .button-green {
+  height: 54px;
+  font-size: 16px;
 }
 
 .button-outline {
-    border-radius: 8px !important;
-    color: var(--gray-100) !important;
-    background-color: transparent !important;
-    padding: 8px 16px !important;
-    gap: 16px !important;
-    font-family: var(--font-family) !important;
-    font-size: 14px;
-    font-weight: 500;
-    width: 100%;
-    min-height: 40px;
-    border: 1px solid var(--gray-100) !important;
-    cursor: pointer;
-    transition: .1s ease;
-    font-family: var(--font-family);
+  border-radius: 8px !important;
+  color: var(--gray-100) !important;
+  background-color: transparent !important;
+  padding: 8px 16px !important;
+  gap: 16px !important;
+  font-family: var(--font-family) !important;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid var(--gray-100) !important;
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-family: var(--font-family);
 }
 .button-outline:hover {
-    border: 1px solid var(--color-primary-400) !important;
-    color: var(--color-primary-400) !important;
+  border: 1px solid var(--color-primary-400) !important;
+  color: var(--color-primary-400) !important;
 }
 .button-outline span::first-letter {
-    font-size: 120% !important;
+  font-size: 120% !important;
 }
 
-.button-outline:hover .card-button-i svg{
-    transform: translate(2px, 3px) !important;
-    fill: var(--color-primary-400) !important;
+.button-outline:hover .card-button-i svg {
+  transform: translate(2px, 3px) !important;
+  fill: var(--color-primary-400) !important;
 }
 
 /* Style Buttons MaterialUI */
 
 .mat-mdc-button .mdc-button__label {
-    transform: translateY(-4px);
+  transform: translateY(-4px);
 }
 
 .button-icon.mat-mdc-icon-button .mat-mdc-button-touch-target {
-    border-radius: 8px ;
-    color: var(--gray-900);
-    background-color: var(--gray-100) ;
-    font-size: 16px;
-    font-weight: 500;
-    height: 40px;
-    width: 40px;
-    border: none;
-    cursor: pointer;
-    transition: .1s ease;
+  border-radius: 8px;
+  color: var(--gray-900);
+  background-color: var(--gray-100);
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  width: 40px;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s ease;
 }
 
 .mat-toolbar {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 /* Icons */
 
 .mat-icon {
-    transition: .1s ease;
+  transition: 0.1s ease;
 }
 .mat-mdc-icon-button:hover .mat-icon,
 .mat-mdc-icon-button:hover .mat-mdc-button-touch-target {
-    background-color: var(--gray-300);
+  background-color: var(--gray-300);
 }
 
 .arrow__rithtop::before {
-    content: url(../public/imagenes/arrowrigth_top.svg);
+  content: url(../public/imagenes/arrowrigth_top.svg);
 }

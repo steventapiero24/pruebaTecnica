@@ -5,12 +5,13 @@ import { BreadcrumbComponent } from "./breadcrumb/breadcrumb.component";
 import { HeaderComponent } from "./header/header.component";
 import { ServiciosComponent } from './servicios/servicios.component';
 import { AwardsComponent } from "./awards/awards.component";
+import { BannerComponent } from "./banner/banner.component";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavComponent, BreadcrumbComponent, HeaderComponent, ServiciosComponent, AwardsComponent],
+  imports: [RouterOutlet, NavComponent, BreadcrumbComponent, HeaderComponent, ServiciosComponent, AwardsComponent, BannerComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

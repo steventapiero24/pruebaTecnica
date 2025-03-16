@@ -1,0 +1,32 @@
+
+.container__banner {
+    background-image: url(../../../public/imagenes/cbba05e802a8be0d34d5e889daf6f539.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: var(--gray-100);
+}
+.container__banner::before {
+    content: "";
+    background: radial-gradient(circle, rgba(16, 47, 86, 0.082) 0%, rgba(16, 47, 86, 0.596) 37%, rgba(16, 47, 86, 0.301) 91%);
+    position: absolute;
+    top: 100;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+}
+.container__banner-content {
+    z-index: 2000;
+    width: 795px;
+}
+.container__banner-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.container__banner-content p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
