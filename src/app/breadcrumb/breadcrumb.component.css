@@ -1,3 +1,15 @@
 .breadcrumb__container {
     height: 90px;
+    padding: 0 104px;
+    color: var(--gray-400);
+}
+.material-icons {
+    transform: translateY(4px);
+}
+
+@media (max-width: 480px) {
+    .breadcrumb__container  {
+        padding: 16px;
+        height: auto;
+    }
 }

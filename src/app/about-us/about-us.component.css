@@ -1,7 +1,6 @@
 .aboutUs__container {
     height: auto;
     padding: 70px 140px;
-    width: 100%;
     gap: 120px;
     flex-wrap: wrap;
 }
