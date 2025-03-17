@@ -1,13 +1,11 @@
-import {ChangeDetectionStrategy, Component, inject} from '@angular/core';
-import {toSignal} from '@angular/core/rxjs-interop';
-import {FormBuilder, FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
+import { FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-import {FloatLabelType, MatFormFieldModule} from '@angular/material/form-field';
+import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
-import {map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-contact',
