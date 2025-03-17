@@ -18,3 +18,12 @@
     height: 64px !important;
 }
 
+@media (max-width: 480px) {
+    .container__faq {
+        padding: 36px 16px;
+    }
+    .container__faq h3 {
+        width: 50%;
+        font-size: 24px;
+    }
+}

@@ -57,3 +57,30 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+@media (max-width: 480px) {
+    .footer__component-top {
+        padding: 36px 16px;
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+    .container__faq h3 {
+        width: 50%;
+        font-size: 24px;
+    }
+    .footer__component-info {
+        flex-direction: column !important;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .about {
+        height: auto;
+    }
+    .footer__component-bottom {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+        height: auto;
+    }
+}

@@ -27,3 +27,10 @@
     height: 72px;
     width: 72px;
 }
+
+@media (max-width: 480px) {
+    .awards__container {
+        position: relative;
+        flex-wrap: wrap;
+    }
+}

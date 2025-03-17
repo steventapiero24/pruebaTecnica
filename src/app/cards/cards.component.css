@@ -35,3 +35,10 @@
     transform: translateY(4px);
     transition: .1s ease;
 }
+
+@media (max-width: 480px) {
+    .card-container  {
+        position: relative;
+        flex-wrap: wrap;
+    }
+}

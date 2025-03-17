@@ -44,3 +44,13 @@
 .button-green {
     height: 54px;
 }
+
+@media (max-width: 480px) {
+    .header__container  {
+        padding: 16px;
+    }
+    .header__container::before {
+        height: 73vh;
+        top: 19.5%;
+    }
+}

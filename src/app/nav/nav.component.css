@@ -20,3 +20,13 @@
     background-color: var(--color-primary-400);
 
 }
+
+@media (max-width: 480px) {
+    .container__nav .button {
+        display: none;
+        width: 100%;
+    }
+    .container__nav  {
+        padding: 16px;
+    }
+}

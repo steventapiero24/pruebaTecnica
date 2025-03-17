@@ -47,3 +47,25 @@
     height: 52px;
     font-size: 16px;
 }
+
+@media (max-width: 480px) {
+    .contact__container {
+        padding: 36px 16px;
+        flex-direction: column;
+        height: auto;
+    }
+    .contact__container h3 {
+        width: 50%;
+        font-size: 24px;
+    }
+    .contact__container-info {
+        width: 100%;
+    }
+    .contact__container-info img {
+        height: 385px;
+        flex-shrink: 0;
+    }
+    .contact__container-form {
+        width: auto;
+    }
+}

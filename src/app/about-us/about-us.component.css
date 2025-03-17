@@ -25,3 +25,21 @@
 .about-us-item {
     padding: 0 !important;
 }
+
+
+@media (max-width: 480px) {
+    .aboutUs__container {
+        padding: 16px;
+        width: auto;
+        gap: 16px;
+    }
+    .container-image {
+        width: 100%;
+    }
+    .about-us-item {
+        max-width: 400px;
+    }
+    .image-work {
+        width: 100%;
+    }
+}

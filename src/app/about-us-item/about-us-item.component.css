@@ -13,3 +13,21 @@
     font-weight: 400 !important;
     color: var(--gray-900);
 }
+
+@media (max-width: 480px) {
+    .mat-mdc-list-item, .container__item-list{
+        width: 400px !important;
+        white-space: normal;
+    }
+    .container__item-list {
+        white-space-collapse: break-spaces;
+    }
+    .container__item-list h4{
+        margin-bottom: 8px;
+    }
+    .mat-mdc-list-item {
+        height: auto !important;
+        margin-bottom: 16px;
+        padding: 16px;
+    }
+}

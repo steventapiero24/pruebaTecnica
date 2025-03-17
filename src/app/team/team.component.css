@@ -27,3 +27,25 @@
 font-size: 16px;
 white-space: pre-line;
 }
+
+@media (max-width: 480px) {
+    .container__team  {
+        padding: 36px 16px;
+        height: auto;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 16px;
+    }
+    .container__team-title h3 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+    .container__team-table {
+        max-width: 400px;
+    }
+    .container__team-table-image {
+        flex-direction: column;
+        max-width: 350px;
+    }
+}
