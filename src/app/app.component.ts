@@ -9,12 +9,13 @@ import { BannerComponent } from "./banner/banner.component";
 import { AboutUsComponent } from './about-us/about-us.component';
 import { TeamComponent } from './team/team.component';
 import { FaqComponent } from './faq/faq.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavComponent, BreadcrumbComponent, HeaderComponent, ServiciosComponent, AwardsComponent, BannerComponent, AboutUsComponent, TeamComponent, FaqComponent],
+  imports: [RouterOutlet, NavComponent, BreadcrumbComponent, HeaderComponent, ServiciosComponent, AwardsComponent, BannerComponent, AboutUsComponent, TeamComponent, FaqComponent, ContactComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

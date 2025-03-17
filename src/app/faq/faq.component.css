@@ -1,7 +1,6 @@
 .container__faq {
     height: auto;
-    height: 70vh;
-    padding: 20px 104px;
+    padding: 40px 104px;
 }
 .container__faq h3 {
     font-size: 36px;

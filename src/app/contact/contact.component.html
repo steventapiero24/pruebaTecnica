@@ -1,1 +1,62 @@
-<p>contact works!</p>
+<div class="contact__container flex">
+  <div class="contact__container-info flex flex-colum gap-16">
+    <h3>Lorem ipsum dolor sit amet</h3>
+    <p>
+      Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla
+      leo posuere, sed facilisis tortor consequat.
+    </p>
+    <img src="imagenes/oficinista.png" alt="oficinista" />
+  </div>
+  <div class="contact__container-form flex flex-colum">
+    <form action="" class="form flex flex-colum gap-16">
+        <label>
+            Tipo de documento 
+            <span>*</span>
+        </label>
+        <mat-form-field>
+            <mat-select placeholder="Selecciona el tipo de tu documento..." required>
+                <mat-option value="one">CC</mat-option>
+                <mat-option value="two">Pasaporte</mat-option>
+                <mat-option value="three">Registro civil</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <label>
+            Numero de documento 
+            <span>*</span>
+        </label>
+        <mat-form-field>
+            <input matInput type="number" placeholder="Ingresa tu número de documento..."/>
+        </mat-form-field>
+        <label>
+            Nombre completo
+            <span>*</span>
+        </label>
+        <mat-form-field>
+            <input matInput type="text" placeholder="Ingresa tu nombre completo..."/>
+        </mat-form-field>
+        <label>
+            Correo electrónico
+            <span>*</span>
+        </label>
+        <mat-form-field>
+            <input matInput type="email" placeholder="Ingresa tu correo electrónico..."/>
+        </mat-form-field>
+        <label>
+            Número de celular
+            <span>*</span>
+        </label>
+        <mat-form-field>
+            <input matInput type="tel" placeholder="+57      000 000 000"/>
+        </mat-form-field>
+        <div class="flex mat-checkbox">
+            <mat-checkbox [formControl]="hideRequiredControl"></mat-checkbox>
+            <p>Al enviar, aceptas los <a href="#">Términos y condiciones</a> y la <a href="#">Política de manejo de datos.</a></p>
+        </div>
+        <button type="submit" class="button-green flex flex-center justify-center">
+            Click Here
+            <i class="arrow__rithtop">
+            </i>
+        </button>
+    </form>
+  </div>
+</div>

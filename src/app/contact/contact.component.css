@@ -1,0 +1,49 @@
+.contact__container {
+    padding: 40px 104px;
+    gap: 80px;
+}
+.contact__container-info {
+    width: 40%;
+}
+.contact__container-info h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--color-segundary-900);
+}
+.contact__container-info p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact__container-info img{
+    height: 549px;
+}
+.contact__container-form {
+    width: 100%;
+}
+.contact__container-form {
+    padding: 20px 30px;
+}
+.form label {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -6px;
+}
+.form span {
+    color: var(--error50);
+}
+
+.mat-checkbox p {
+    font-size: 16px;
+    transform: translateY(6px);
+}
+.mat-checkbox a {
+    font-size: 16px;
+    transform: translateY(6px);
+    text-decoration: none;
+    color: var(--color-segundary-400);
+}
+
+.form button {
+    height: 52px;
+    font-size: 16px;
+}
