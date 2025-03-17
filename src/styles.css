@@ -197,3 +197,17 @@
 .mdc-list {
   padding: 0 !important;
 }
+
+/* Tabs style Material UI */
+
+.mdc-tab--active {
+  background-color: var(--color-segundary-400) !important;
+}
+.mdc-tab--active .mdc-tab__text-label {
+  color: var(--gray-100) !important;
+}
+.mat-mdc-tab .mdc-tab-indicator__content--underline {
+  border-color: var(--color-primary-400) !important;
+  border: 2px solid var(--color-primary-400);
+}
+
