@@ -14,20 +14,20 @@ import { CommonModule } from '@angular/common';
 export class CardsComponent {
   cards = [
     {
-      title: 'Lorem ipsum',
-      description: 'Hola soy la descripción de la card para que todo se vea lindo',
+      title: 'Optimización de Producción',
+      description: 'Aumenta la eficiencia y reduce costos con nuestras soluciones especializadas.',
       imageUrl: 'imagenes/fabrica.png',
       url: '#'
     },
     {
-      title: 'Otro título',
-      description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit posuere.',
+      title: 'Protección de Equipos',
+      description: 'Minimiza la corrosión y extiende la vida útil de tus activos críticos.',
       imageUrl: 'imagenes/tuberias.jpg',
       url: '#'
     },
     {
-      title: 'Otro título',
-      description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit posuere.',
+      title: 'Seguridad y Cumplimiento',
+      description: 'Cumple con los estándares ambientales sin afectar la rentabilidad.',
       imageUrl: 'imagenes/conductor.jpg',
       url: '#'
     }

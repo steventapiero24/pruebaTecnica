@@ -14,9 +14,9 @@ export class TeamComponent {
   selectedTabIndex = 0;
 
   asyncTabs: Observable<any[]> = of([
-    { label: 'Mauris vulputate ', imageUrl: 'imagenes/trabajadorcampo.jpg', description: 'Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat. \n\n Nulla at nulla mattis, placerat arcu ut, ornare libero. Etiam sit amet urna efficitur, auctor magna nec, pellentesque magna. Ut at libero et risus convallis facilisis.' },
-    { label: 'lorem sed lacus ', imageUrl: 'imagenes/cascotrabajador.jpg', description: 'Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat. \n\n Nulla at nulla mattis, placerat arcu ut, ornare libero. Etiam sit amet urna efficitur, auctor magna nec, pellentesque magna. Ut at libero et risus convallis facilisis.' },
-    { label: 'lacus efficitur', imageUrl: 'imagenes/trabajadoresterraza.jpg', description: 'Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat. \n\n Nulla at nulla mattis, placerat arcu ut, ornare libero. Etiam sit amet urna efficitur, auctor magna nec, pellentesque magna. Ut at libero et risus convallis facilisis.' }
+    { label: 'Seguridad y bienestar en el trabajo', imageUrl: 'imagenes/trabajadorcampo.jpg', description: 'Nos comprometemos a garantizar un entorno de trabajo seguro y saludable. Implementamos rigurosos protocolos de seguridad, capacitaciones constantes y tecnología avanzada para minimizar riesgos y asegurar el bienestar de cada colaborador en nuestras operaciones.' },
+    { label: 'Desarrollo profesional y crecimiento continuo ', imageUrl: 'imagenes/cascotrabajador.jpg', description: 'Fomentamos el crecimiento de nuestro equipo a través de programas de formación, certificaciones y oportunidades de desarrollo profesional. \n\n Creemos en el talento interno y ofrecemos planes de carrera que permiten a nuestros colaboradores alcanzar su máximo potencial.' },
+    { label: 'Innovación y sostenibilidad en la industria', imageUrl: 'imagenes/trabajadoresterraza.jpg', description: 'Somos una empresa comprometida con la eficiencia energética y el desarrollo sostenible.  \n\n  Apostamos por tecnologías innovadoras que optimizan nuestros procesos, reducen el impacto ambiental y garantizan un futuro energético más responsable y eficiente.' }
   ]);
 
   onTabChange(event: any) {

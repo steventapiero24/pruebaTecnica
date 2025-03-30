@@ -14,16 +14,16 @@ export class ItemAwardsComponent {
   awards = [
     {
       imageUrl: 'imagenes/academic.png',
-      title: 'Lorem ipsum',
+      title: 'Capacitación Profesional',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit posuere blandit quam, himenaeos eros nunc tempus nisi volutpat integer odio vel, dapibus vitae taciti mus metus tincidunt eu vestibulum.',
+        'Mejora tus habilidades con nuestros cursos especializados y actualízate con las últimas tendencias del sector.',
       url: '#',
     },
     {
       imageUrl: 'imagenes/globo.png',
-      title: 'Lorem ipsum',
+      title: 'Soluciones Innovadoras',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit posuere blandit quam, himenaeos eros nunc tempus nisi volutpat integer odio vel, dapibus vitae taciti mus metus tincidunt eu vestibulum.',
+        'Descubre herramientas y estrategias que impulsan la transformación digital y optimizan procesos empresariales.',
       url: '#',
     },
   ];

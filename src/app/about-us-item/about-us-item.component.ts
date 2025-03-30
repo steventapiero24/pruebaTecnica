@@ -14,23 +14,23 @@ export class AboutUsItemComponent {
   public aboutItem = [
     {
       imageUrl: 'imagenes/arrows.png',
-      title: 'Sed accumsan erat id scelerisque sodales',
-      descrption: 'Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat.',
+      title: ' Inhibidores de Corrosión y Depósitos',
+      descrption: 'Protegemos tus equipos y ductos para evitar daños y optimizar su rendimiento.',
     },
     {
       imageUrl: 'imagenes/questionperson.png',
-      title: 'Sed accumsan erat id scelerisque sodales',
-      descrption: 'Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat..',
+      title: 'Tratamiento de Crudo y Agua de Producción ',
+      descrption: 'Soluciones avanzadas para separar y tratar fluidos de manera eficiente.',
     },
     {
       imageUrl: 'imagenes/award-icon.png',
-      title: 'Sed accumsan erat id scelerisque sodales',
-      descrption: 'Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat.',
+      title: 'Optimización de Fluidos de Perforación ',
+      descrption: 'Mejoramos la estabilidad y rendimiento de tus fluidos de perforación.',
     },
     {
       imageUrl: 'imagenes/persons.png',
-      title: 'Sed accumsan erat id scelerisque sodales',
-      descrption: 'Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat.',
+      title: ' Asesoría Técnica y Monitoreo',
+      descrption: 'Evaluamos tu operación y aplicamos estrategias personalizadas para maximizar la producción.',
     },
   ];
 }

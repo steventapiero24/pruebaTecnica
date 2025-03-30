@@ -14,29 +14,29 @@ export class FaqComponent {
 
   faq = [
     {
-      title: '¿Lorem ipsum dolor sit amet consectetur adipiscing?',
+      title: '¿Qué servicios ofrece la empresa?',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit, accumsan placerat metus condimentum eget hendrerit ut convallis, curabitur facilisis vulputate taciti nunc nam. Netus cras pellentesque urna eu aenean sem mattis felis, sodales libero in molestie massa sapien est magnis habitant, himenaeos mauris imperdiet et laoreet tempus conubia.',
+        'Nuestra empresa brinda servicios de exploración, extracción, refinación y distribución de petróleo y gas. Además, ofrecemos consultoría en energía, soluciones sostenibles y logística para el sector petrolero.',
     },
     {
-      title: '¿Elit posuere blandit quam himenaeos eros nunc?',
+      title: ' ¿Cómo puedo solicitar una cotización o contratar un servicio?',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit, accumsan placerat metus condimentum eget hendrerit ut convallis, curabitur facilisis vulputate taciti nunc nam. Netus cras pellentesque urna eu aenean sem mattis felis, sodales libero in molestie massa sapien est magnis habitant, himenaeos mauris imperdiet et laoreet tempus conubia.',
+        'Puedes solicitar una cotización a través de nuestro formulario en la sección de "Contacto" en nuestra página web o llamando a nuestro equipo de atención al cliente.',
     },
     {
-      title: '¿Tempus nisi volutpat integer odio vel?',
+      title: '¿Dónde opera la empresa?',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit, accumsan placerat metus condimentum eget hendrerit ut convallis, curabitur facilisis vulputate taciti nunc nam. Netus cras pellentesque urna eu aenean sem mattis felis, sodales libero in molestie massa sapien est magnis habitant, himenaeos mauris imperdiet et laoreet tempus conubia.',
+        'Tenemos presencia en diversas regiones estratégicas, con operaciones en campos petroleros, refinerías y plantas de distribución en varios países.',
     },
     {
-      title: '¿Dapibus vitae taciti mus metus tincidunt eu vestibulum?',
+      title: '¿Qué medidas toman para proteger el medio ambiente?',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit, accumsan placerat metus condimentum eget hendrerit ut convallis, curabitur facilisis vulputate taciti nunc nam. Netus cras pellentesque urna eu aenean sem mattis felis, sodales libero in molestie massa sapien est magnis habitant, himenaeos mauris imperdiet et laoreet tempus conubia.',
+        'Aplicamos estrictos estándares de sostenibilidad, implementamos tecnologías de reducción de emisiones y promovemos prácticas de producción responsable para minimizar nuestro impacto ambiental.',
     },
     {
-      title: '¿Maecenas pharetra purus id lacus bibendum sollicitudin?',
+      title: '¿Cuáles son los requisitos para trabajar en la empresa?',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit, accumsan placerat metus condimentum eget hendrerit ut convallis, curabitur facilisis vulputate taciti nunc nam. Netus cras pellentesque urna eu aenean sem mattis felis, sodales libero in molestie massa sapien est magnis habitant, himenaeos mauris imperdiet et laoreet tempus conubia.',
+        'Los requisitos varían según el puesto. Buscamos profesionales con experiencia en la industria, así como jóvenes talentos interesados en desarrollarse en el sector. Puedes consultar las vacantes en la sección "Trabaja con Nosotros".',
     },
   ];
 }
