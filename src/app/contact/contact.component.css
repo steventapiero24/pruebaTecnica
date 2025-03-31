@@ -6,9 +6,9 @@
     width: 40%;
 }
 .contact__container-info h3 {
-    font-size: 32px;
-    font-weight: 500;
     color: var(--color-segundary-900);
+    font-size: 36px;
+    font-weight: 700;
 }
 .contact__container-info p {
     font-size: 16px;
@@ -34,7 +34,7 @@
 
 .mat-checkbox p {
     font-size: 16px;
-    transform: translateY(6px);
+    transform: translateY(11px);
 }
 .mat-checkbox a {
     font-size: 16px;
