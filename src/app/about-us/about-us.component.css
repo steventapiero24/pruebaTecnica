@@ -2,7 +2,6 @@
     height: auto;
     padding: 70px 140px;
     gap: 120px;
-    flex-wrap: wrap;
 }
 .container-image {
     width: 30%;
@@ -31,6 +30,7 @@
         padding: 16px;
         width: auto;
         gap: 16px;
+        flex-wrap: wrap;
     }
     .container-image {
         width: 100%;
